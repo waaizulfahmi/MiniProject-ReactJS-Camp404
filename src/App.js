@@ -11,6 +11,7 @@ import { useEffect } from 'react';
 function App() {
   useEffect(() => {
     document.title= "Nike Official Store"
+
   }, []);
   return (
 

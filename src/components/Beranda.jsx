@@ -19,67 +19,82 @@ function Beranda() {
         Nike Official Store
       </h1>
       <button className="btn btn-primary centered3">Belanja Sekarang !</button>
-      <div className="container mt-5 mb-5 px-5 py-5">
-        <div className="row">
+      <div className="container  mt-5 mb-5 px-4 py-1">
+        <div className="row ">
           <div className="col-4">
-            <img src="https://img.icons8.com/external-ddara-lineal-ddara/64/094067/external-courier-delivery-services-ddara-lineal-ddara.png" />
-            <h4 className="headline-color">Pengiriman Cepat</h4>
+            <img
+              src="https://img.icons8.com/external-ddara-lineal-ddara/64/094067/external-courier-delivery-services-ddara-lineal-ddara.png"
+              height="60px"
+            />
+            <h5 className="headline-color">Pengiriman Cepat</h5>
           </div>
           <div className="col-4 headline-color">
-            <img src="https://img.icons8.com/windows/64/094067/verified-badge.png" />
-            <h4>Barang Original</h4>
+            <img
+              src="https://img.icons8.com/windows/64/094067/verified-badge.png"
+              height="60px"
+            />
+            <h5>Barang Original</h5>
           </div>
           <div className="col-4 headline-color">
-            <img src="https://img.icons8.com/ios/64/094067/free-shipping.png" />
-            <h4>Gratis Ongkir*</h4>
+            <img
+              src="https://img.icons8.com/ios/64/094067/free-shipping.png"
+              height="60px"
+            />
+            <h5>Gratis Ongkir*</h5>
           </div>
+        </div>
+        <div className="row mt-5  ">
+          <small className="text-center headline-color">
+            *Syarat & Ketentuan Berlaku
+          </small>
         </div>
       </div>
 
       <div className="bg-light">
-        <div className="container p-1">
+        <div className="container  p-1">
           <h5 className="text-black text-start mb-4 mt-5">Featured</h5>
-          <div className="row">
+          <div className="row mb-5">
             <div className="col-6">
-              <div className="card">
+              <div className="card container-image">
                 <img
                   src={sepatu1}
-                  className="card-img-top"
+                  className="card-img-top image"
                   alt=""
                   srcset=""
-                  height="800px"
+                  height="auto"
                 />
+                <div className="middle">
+                  <div className="text">BUY</div>
+                </div>
                 <div className="card-body">
                   <h5 className="card-title">
                     <p className="card-text text-start text-black">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Facilis asperiores veniam dignissimos.
                     </p>
-                    <a href="" className="btn btn-primary">
-                      Link
-                    </a>
                   </h5>
                 </div>
               </div>
             </div>
             <div className="col-6">
-              <div className="card">
+              <div className="card container-image">
                 <img
                   src={sepatu2}
-                  className="card-img-top"
+                  className="card-img-top image"
                   alt=""
                   srcset=""
-                  height="800px"
+                  height="auto"
                 />
+                <div className="middle">
+                  <div className="text">BUY</div>
+                </div>
+
                 <div className="card-body">
                   <h5 className="card-title">
                     <p className="card-text text-start text-black">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Facilis asperiores veniam dignissimos.
                     </p>
-                    <a href="" className="btn btn-primary">
-                      Link
-                    </a>
                   </h5>
                 </div>
               </div>
@@ -94,7 +109,7 @@ function Beranda() {
         <div className="container">
           <div className="row p-5">
             <div className="col-lg-6 text-start">
-              <h4 className="text-uppercase">nike officail store</h4>
+              <h4 className="text-uppercase">nike official store</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex
                 iusto nesciunt similique minus, quasi dolore!
