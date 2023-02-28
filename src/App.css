@@ -3,6 +3,16 @@ Link {
   text-decoration: none,
 }
 
+.background-custom {
+  background-color: #d8eefe;
+}
+
+.headline-color{
+  color: #094067;
+}
+.no-link{
+  text-decoration: none;
+}
 /* Bawaan  */
 .App {
   text-align: center;

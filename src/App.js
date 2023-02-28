@@ -5,9 +5,15 @@ import Beranda from './components/Beranda';
 import Katalog from './components/Katalog';
 import Navbar from './components/Navbar';
 import Manajemen from './components/Manajemen';
+import { useEffect } from 'react';
+
 
 function App() {
+  useEffect(() => {
+    document.title= "Nike Official Store"
+  }, []);
   return (
+
     <BrowserRouter>
       <Navbar />
       <Routes>
