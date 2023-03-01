@@ -30,7 +30,9 @@ function Katalog() {
           <Card style={{ width: "18rem" }} key={index} className="box shadow">
             <Card.Img variant="top" src={logo} />
             <Card.Body>
-              <Card.Title className="text-black">{sepatu.nama}</Card.Title>
+              <Card.Title className="text-black">
+                {sepatu.nama.toUpperCase()}
+              </Card.Title>
               <Card.Text>Rp. {sepatu.harga.toLocaleString()}</Card.Text>
               <Button variant="primary">Buy Now !</Button>
             </Card.Body>

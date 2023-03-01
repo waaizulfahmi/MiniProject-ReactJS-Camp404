@@ -24,7 +24,7 @@ function Tabel({ showEdit, shoes, requestToDelete }) {
           {shoes.map((sepatu, index) => (
             <tr key={index}>
               <td>{index + 1}</td>
-              <td>{sepatu.nama}</td>
+              <td>{sepatu.nama.toUpperCase()}</td>
               <td>{sepatu.jumlah}</td>
               <td>Rp. {sepatu.harga.toLocaleString()}</td>
               <td>

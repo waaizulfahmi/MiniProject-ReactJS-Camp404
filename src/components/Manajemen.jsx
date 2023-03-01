@@ -83,22 +83,24 @@ function Manajemen() {
   }
 
   return (
-    <div className="container card ms-auto my-5 shadow">
-      <h2 className="text-center pt-3 text-black mb-5">Manajemen Barang</h2>
+    <div className="container card ms-auto my-4 shadow">
+      <h2 className=" pt-3 text-black mb-5">Manajemen Barang</h2>
       <div>
-        <button
-          className="btn btn-primary ms-3 mb-3 ms-auto"
-          onClick={showCreateForm}
-        >
-          <i className="fa fa-plus me-1"></i>Tambah Data
-        </button>
+        <div className="col-2">
+          <button
+            className="btn btn-success ms-3 mb-3 ms-auto"
+            onClick={showCreateForm}
+          >
+            <i className="fa fa-plus me-1"></i>Tambah Data
+          </button>
+        </div>
         {formMode !== "" && (
           <div id="form">
             <div className="card-body">
-              <h4>Form Sepatu</h4>
+              <h4 className="text-black mb-5">Form Sepatu</h4>
               <form className="row" onSubmit={submitForm}>
                 <div className="row-6 mb-3 col-10 ">
-                  <label htmlFor="" className="mb-1">
+                  <label htmlFor="" className="mb-1 text-black col-form-label ">
                     Nama Barang
                   </label>
                   <input
@@ -111,7 +113,7 @@ function Manajemen() {
                   />
                 </div>
                 <div className="row-6 mb-5 col-4">
-                  <label htmlFor="" className="mb-1">
+                  <label htmlFor="" className="mb-1  text-black">
                     Jumlah Item
                   </label>
                   <input
@@ -124,7 +126,7 @@ function Manajemen() {
                   />
                 </div>
                 <div className="row-6 col-3">
-                  <label htmlFor="" className="mb-1">
+                  <label htmlFor="" className="mb-1  text-black">
                     Harga
                   </label>
                   <input
@@ -138,7 +140,7 @@ function Manajemen() {
                 </div>
                 <div className="row">
                   <button type="submit" class="btn btn-primary ms-3 mb-3 col-2">
-                    <i className="fa fa-floppy-o me-2"></i>Submit
+                    <i className="fa fa-floppy-o me-2"></i>Simpan Data
                   </button>
                 </div>
               </form>
