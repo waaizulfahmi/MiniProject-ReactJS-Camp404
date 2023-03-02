@@ -10,7 +10,7 @@ import { useEffect } from 'react';
 
 function App() {
   useEffect(() => {
-    document.title= "Nike Official Store"
+    document.title= "Nike Official Store | Fake "
 
   }, []);
   return (
