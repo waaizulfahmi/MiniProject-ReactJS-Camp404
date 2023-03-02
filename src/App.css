@@ -7,8 +7,13 @@
   flex-direction: row;
 }
 
+.nav-blur {
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
 .grid > div {
-  flex-basis: calc(50% - 40px);
+  flex-basis: calc(25% - 40px);
 }
 
 .box1,
@@ -33,7 +38,6 @@
 .box {
   margin: 20px;
 }
-
 
 .boxy {
   width: 300px;
@@ -72,12 +76,12 @@
   display: block;
   width: 100%;
   height: auto;
-  transition: .5s ease;
+  transition: 0.5s ease;
   backface-visibility: hidden;
 }
 
 .middle {
-  transition: .5s ease;
+  transition: 0.5s ease;
   opacity: 0;
   position: absolute;
   top: 50%;
@@ -106,17 +110,17 @@
 /* +++++++++++++++ */
 
 Link {
-  text-decoration: none,
+  text-decoration: none;
 }
 
 .background-custom {
   background-color: #d8eefe;
 }
 
-.headline-color{
+.headline-color {
   color: #094067;
 }
-.no-link{
+.no-link {
   text-decoration: none;
 }
 /* Bawaan  */

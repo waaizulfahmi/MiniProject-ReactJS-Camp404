@@ -28,7 +28,7 @@ function Katalog() {
       <div className="grid">
         {shoes.map((sepatu, index) => (
           <Card style={{ width: "18rem" }} key={index} className="box shadow">
-            <Card.Img variant="top" src={logo} />
+            <Card.Img variant="top" src={logo} width="auto" className="p-2" />
             <Card.Body>
               <Card.Title className="text-black">
                 {sepatu.nama.toUpperCase()}

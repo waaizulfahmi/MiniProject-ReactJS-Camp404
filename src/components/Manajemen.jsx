@@ -51,6 +51,7 @@ function Manajemen() {
         .then(() => {
           alert("data Berhasil Ditambahkan");
           retrieveData();
+          event.preventDefault();
         })
         .catch((error) => {
           console.log(error.response);
