@@ -103,6 +103,27 @@ function Beranda() {
         </div>
       </div>
 
+      <div className="bg-light">
+        <div className="container  p-1">
+          <h5 className="text-black text-start mb-4 mt-5">
+            Nike Video Commercial
+          </h5>
+          <div className="row mb-5">
+            <div className="col">
+              <iframe
+                width="853"
+                height="480"
+                src="https://www.youtube.com/embed/KriBQVhsgZk?autoplay=1&mute=1"
+                title="Nike Football: The Last Game full edition"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* <h1>skdaksdakd</h1> */}
 
       <footer className="bg-info">

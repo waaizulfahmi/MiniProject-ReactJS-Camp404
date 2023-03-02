@@ -35,6 +35,12 @@ function Katalog() {
               </Card.Title>
               <Card.Text>Rp. {sepatu.harga.toLocaleString()}</Card.Text>
               <Button variant="primary">Buy Now !</Button>
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="https://img.icons8.com/windows/60/094067/buy.png"
+                  className="ms-5"
+                />
+              </a>
             </Card.Body>
           </Card>
         ))}
